@@ -1,0 +1,19 @@
+[debug] [2018-06-25T17:44:15.139Z] ----------------------------------------------------------------------
+[debug] [2018-06-25T17:44:15.142Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-06-25T17:44:15.143Z] CLI Version:   3.19.0
+[debug] [2018-06-25T17:44:15.143Z] Platform:      darwin
+[debug] [2018-06-25T17:44:15.143Z] Node Version:  v8.11.1
+[debug] [2018-06-25T17:44:15.143Z] Time:          Mon Jun 25 2018 23:14:15 GMT+0530 (IST)
+[debug] [2018-06-25T17:44:15.143Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-25T17:44:15.173Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-25T17:44:15.173Z] > authorizing via signed-in user
+[debug] [2018-06-25T17:44:15.188Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bruce-wayne-1206  
+  
+ Mon Jun 25 2018 23:14:15 GMT+0530 (IST)
+[debug] [2018-06-25T17:45:33.532Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443

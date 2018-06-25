@@ -4,6 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'proof-of-concept',
     environment,
+    firebase: 'https://bruce-wayne-1206.firebaseio.com',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -14,7 +15,15 @@ module.exports = function(environment) {
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
-      }
+      },
+      firebase: {
+        apiKey: 'AIzaSyCpXGvRDL0e_1vWroNlsTdz3kVsHVfHozA',
+        authDomain: 'bruce-wayne-1206.firebaseapp.com',
+        databaseURL: 'https://bruce-wayne-1206.firebaseio.com',
+        storageBucket: '',
+        projectId: "bruce-wayne-1206",
+        messagingSenderId: "72175058738"
+      },
     },
 
     APP: {

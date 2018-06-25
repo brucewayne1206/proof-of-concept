@@ -43,5 +43,13 @@
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.7",
+    "d3": "^5.5.0",
+    "emberfire": "^2.0.10",
+    "hoek": "^5.0.3",
+    "lodash": "^4.17.10",
+    "minimatch": "^3.0.4"
   }
 }
